@@ -2,4 +2,5 @@ title: Bitan Mallik
 logo: /assets/img/Self_Image003.jpg
 description: text below image
 #show_downloads: true
+google_analytics:
 theme: jekyll-theme-minimal
