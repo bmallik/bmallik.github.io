@@ -1,6 +1,10 @@
 title: Bitan Mallik
 logo: /assets/img/Self_Image003.jpg
 description: text below image
-#show_downloads: true
+show_downloads: true
+github:
+  zip_url: http://example.com/download.zip
+  another_url: another value
+
 google_analytics:
 theme: jekyll-theme-minimal
