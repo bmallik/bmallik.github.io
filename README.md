@@ -1,6 +1,6 @@
 # Hardware Engineer
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Status: under construction...
 
 ## Education
 - M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
