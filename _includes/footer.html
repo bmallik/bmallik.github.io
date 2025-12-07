@@ -1,0 +1,187 @@
+<style>
+  /* COMPACT FOOTER STYLES */
+  .page__footer {
+    padding: 1.5rem 0;      /* Slight increase to accommodate new text */
+    margin-top: 2rem;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    color: #a0a0a0;
+  }
+
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;           /* Spacing */
+    align-items: center;
+  }
+
+  /* 1. Header */
+  .footer-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: #888;
+    margin: 0;
+  }
+
+  /* NEW: Professional Text Block */
+  .footer-intro-text {
+    font-size: 0.75rem;
+    color: #888;
+    line-height: 1.4;
+    max-width: 450px; /* Prevents text from stretching too wide */
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  /* 2. Icons */
+  .footer-social-icons {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.1rem;
+    margin-top: 0.3rem;
+  }
+
+  .footer-social-icons a {
+    color: #b0b0b0;
+    transition: color 0.3s ease, transform 0.2s ease;
+    text-decoration: none;
+  }
+
+  .footer-social-icons a:hover {
+    color: #4da6ff;
+    transform: translateY(-2px);
+  }
+
+  /* 3. Info Text */
+  .footer-info {
+    font-size: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    color: #888;
+  }
+
+  .footer-info span {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    white-space: nowrap;
+  }
+
+  /* 4. Copyright */
+  .footer-bottom {
+    font-size: 0.7rem;
+    opacity: 0.6;
+    margin-top: 0.5rem;
+    line-height: 1.4;
+  }
+  
+  .footer-bottom a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+  }
+
+  .footer-bottom a:hover {
+    color: #4da6ff;
+    text-decoration: none;
+  }
+
+  /* Dark Mode Styles */
+  html[data-theme="dark"] .footer-title {
+    color: #c0c0c0;
+  }
+
+  html[data-theme="dark"] .footer-intro-text {
+    color: #b8b8b8;
+  }
+
+  html[data-theme="dark"] .footer-social-icons a {
+    color: #c8c8c8;
+  }
+
+  html[data-theme="dark"] .footer-info {
+    color: #b8b8b8;
+  }
+
+  html[data-theme="dark"] .footer-bottom {
+    color: #a8a8a8;
+    opacity: 0.8;
+  }
+
+</style>
+
+<div class="footer-container">
+
+  <!-- 1. Header -->
+  <div class="footer-title">Contact Me</div>
+
+  <!-- 2. Minimal Social Icons -->
+  <div class="footer-social-icons">
+    {% if site.author.github %}
+      <a href="https://github.com/{{ site.author.github }}" title="GitHub">
+        <i class="fab fa-github"></i>
+      </a>
+    {% endif %}
+
+    {% if site.author.linkedin %}
+      <a href="https://www.linkedin.com/in/{{ site.author.linkedin }}" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    {% endif %}
+
+    {% if site.author.email %}
+      <a href="mailto:{{ site.author.email }}" title="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+    {% endif %}
+    
+    {% if site.author.orcid %}
+      <a href="https://orcid.org/{{ site.author.orcid }}" title="ORCID">
+        <i class="fab fa-orcid"></i>
+      </a>
+    {% endif %}
+  </div>
+
+  <!-- 3. Personal Info -->
+  <div class="footer-info">
+    <span>
+      <i class="fas fa-user-circle"></i> {{ site.author.name }}
+    </span>
+    {% if site.author.location %}
+      <span>
+        <i class="fas fa-map-marker-alt"></i> {{ site.author.location }}
+      </span>
+    {% endif %}
+    {% if site.author.employer %}
+      <span>
+        <i class="fas fa-university"></i> {{ site.author.employer }}
+      </span>
+    {% endif %}
+  </div>
+  
+  <!-- 4. Academic Information -->
+  <div class="footer-info">
+    {% if site.author.research_interests %}
+      <span>
+        <i class="fas fa-microscope"></i> {{ site.author.research_interests }}
+      </span>
+    {% endif %}
+    {% if site.author.department %}
+      <span>
+        <i class="fas fa-building"></i> {{ site.author.department }}
+      </span>
+    {% endif %}
+  </div>
+  
+  <!-- 5. Copyright and Last Updated -->
+  <div class="footer-bottom">
+    <p style="margin:0;">&copy; {{ "now" | date: "%Y" }} {{ site.author.name }}. Last updated: {{ site.time | date: "%B %Y" }}.</p>
+    <!-- <p style="margin:2px 0 0 0;">Built with <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>.</p> -->
+  </div>
+  
+</div>

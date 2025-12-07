@@ -1,0 +1,88 @@
+{
+  "activities": [
+    {
+      "title": "High-Speed SerDes Transmitter",
+      "date": "October 2025",
+      "subtitle": "Initial Eye Diagram Simulation",
+      "description": "This project focuses on the architecture of a 56Gbps PAM4 transmitter. In this phase, I am verifying the equalization logic using Cadence Virtuoso. The video below demonstrates the adaptive equalizer convergence and the resulting eye opening after channel loss.",
+      "video_type": "youtube",
+      "video_url": "https://www.youtube.com/embed/14aikUdVScI"
+    },
+    {
+      "title": "Mixed-Signal Layout Automation",
+      "date": "August 2025",
+      "subtitle": "Scripting in SKILL & Python",
+      "description": "An ongoing effort to automate the layout generation for differential pairs to minimize parasitic mismatch. This tool takes a netlist as input and automatically places devices with common-centroid matching. The demo shows the script execution and DRC check.",
+      "video_type": "local",
+      "video_url": "/files/313145_tiny_web.mp4"
+    }
+  ],
+  "ongoing_tasks": [
+    {
+      "title": "Low-Power ADC Design",
+      "heading": "12-bit SAR ADC Optimization",
+      "date": "November 2025",
+      "description": "Working on optimizing power consumption for a 12-bit SAR ADC targeting IoT applications. Currently focusing on comparator design and capacitor DAC sizing.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=100"
+    },
+    {
+      "title": "Clock Distribution Network",
+      "heading": "Multi-GHz Clock Tree Synthesis",
+      "date": "December 2025",
+      "description": "Designing a low-jitter clock distribution network for a high-speed SoC. Investigating different buffer topologies and clock tree architectures.",
+      "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=100"
+    }
+  ],
+  "event_organization": [
+    {
+      "title": "Weekly AI Seminar Series",
+      "role": "Co-organizer",
+      "date": "2024 - Present",
+      "description": "Co-organizing a weekly seminar series featuring speakers from academia and industry discussing cutting-edge AI and machine learning research.",
+      "icon": "fas fa-chalkboard-teacher"
+    },
+    {
+      "title": "University Data Science Hackathon",
+      "role": "Lead Organizer",
+      "date": "2024",
+      "description": "Organized the annual Data Science Hackathon with 150+ participants, coordinating sponsors, mentors, and logistics.",
+      "icon": "fas fa-code"
+    }
+  ],
+  "mentorship_outreach": [
+    {
+      "title": "Undergraduate Research Mentorship",
+      "role": "Research Mentor",
+      "date": "Summer 2024",
+      "description": "Mentored 3 undergraduate students for their summer capstone projects focusing on analog IC design and signal processing.",
+      "icon": "fas fa-user-graduate"
+    },
+    {
+      "title": "Science Fair Volunteer",
+      "role": "Judge & Mentor",
+      "date": "2024",
+      "description": "Volunteered at the local Science Fair for high school students, providing feedback and guidance on electronics and engineering projects.",
+      "icon": "fas fa-flask"
+    }
+  ],
+  "media_talks": [
+    {
+      "title": "Guest Lecture: Advanced Circuit Design",
+      "venue": "EE301: Analog Circuit Design",
+      "date": "Fall 2024",
+      "description": "Delivered a guest lecture on advanced analog circuit design techniques and industry best practices.",
+      "icon": "fas fa-microphone-alt",
+      "link": "https://www.youtube.com/watch?v=7vbgmH7sLNQ",
+      "link_text": "Watch Lecture"
+    },
+    {
+      "title": "Future of Semiconductor Technology",
+      "venue": "Tech Innovators Podcast",
+      "date": "October 2024",
+      "description": "Interviewed on the 'Tech Innovators' podcast discussing the future of semiconductor technology and emerging trends in IC design.",
+      "icon": "fas fa-podcast",
+      "link": "https://open.spotify.com/show/2VRS1IJCTn2Nlkg33ZVfkM",
+      "link_text": "Listen to Episode"
+    }
+  ]
+}

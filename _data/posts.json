@@ -1,0 +1,38 @@
+[
+  {
+    "id": "future-of-ai",
+    "title": "The Future of Generative AI in Software Development",
+    "date": "2024-03-15",
+    "author": "Bitan Mallik",
+    "read_time": "5 min read",
+    "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2565&auto=format&fit=crop",
+    "excerpt": "Exploring how Large Language Models are reshaping the coding landscape and what it means for developers.",
+    "content": "<h2>The AI Revolution is Here</h2><p>Generative AI is not just a buzzword; it's a fundamental shift in how we approach software engineering. From code completion to automated testing, the tools available today are more powerful than ever.</p><h3>Impact on Productivity</h3><p>Developers who embrace AI tools report a significant increase in productivity. Routine tasks are automated, allowing engineers to focus on complex architectural problems.</p><blockquote>The best way to predict the future is to invent it.</blockquote><p>As we move forward, the synergy between human creativity and machine efficiency will define the next era of technology.</p><h3>Key Takeaways</h3><ul><li>AI is an assistant, not a replacement.</li><li>Prompt engineering is a new critical skill.</li><li>Ethical considerations must be at the forefront of AI development.</li></ul>",
+    "tags": ["AI", "Technology", "Future", "Innovation"],
+    "url": "/posts/future-of-ai/"
+  },
+  {
+    "id": "clean-code",
+    "title": "Mastering Clean Code Principles",
+    "date": "2024-02-20",
+    "author": "Bitan Mallik",
+    "read_time": "8 min read",
+    "image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2670&auto=format&fit=crop",
+    "excerpt": "Why writing maintainable code is more important than writing clever code. A deep dive into SOLID principles.",
+    "content": "<h2>What is Clean Code?</h2><p>Clean code is code that is easy to understand and easy to change. It's not about being clever; it's about being clear.</p><h3>The SOLID Principles</h3><ul><li><strong>S</strong>ingle Responsibility Principle: A class should have one, and only one, reason to change.</li><li><strong>O</strong>pen/Closed Principle: Entities should be open for extension, but closed for modification.</li><li><strong>L</strong>iskov Substitution Principle: Derived classes must be substitutable for their base classes.</li><li><strong>I</strong>nterface Segregation Principle: Many client-specific interfaces are better than one general-purpose interface.</li><li><strong>D</strong>ependency Inversion Principle: Depend upon abstractions, not concretions.</li></ul><p>Adhering to these principles ensures your codebase remains robust and scalable over time.</p><h3>Refactoring Techniques</h3><p>Don't be afraid to refactor. Extract methods, rename variables for clarity, and remove dead code. Your future self will thank you.</p>",
+    "tags": ["Coding", "Best Practices", "Software Engineering", "Clean Code"],
+    "url": "/posts/clean-code/"
+  },
+  {
+    "id": "web-design-trends",
+    "title": "Modern Web Design Trends for 2025",
+    "date": "2024-01-10",
+    "author": "Bitan Mallik",
+    "read_time": "6 min read",
+    "image": "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?q=80&w=2555&auto=format&fit=crop",
+    "excerpt": "A look at the aesthetic and functional trends dominating the web this year, from brutalism to glassmorphism.",
+    "content": "<h2>Aesthetics vs. Usability</h2><p>In 2025, we are seeing a return to minimalism, but with a twist. Bold typography and immersive 3D elements are taking center stage.</p><h3>Dark Mode is Standard</h3><p>It's no longer an option; it's a requirement. Users expect a seamless transition between light and dark themes.</p><p>Designers must now think in multiple color palettes from day one.</p><h3>Micro-Interactions</h3><p>Small animations that respond to user actions make interfaces feel alive. Whether it's a button press or a page transition, these details matter.</p><blockquote>Design is not just what it looks like and feels like. Design is how it works. - Steve Jobs</blockquote>",
+    "tags": ["Design", "UI/UX", "Web", "Trends"],
+    "url": "/posts/web-design-trends/"
+  }
+]

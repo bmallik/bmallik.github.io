@@ -1,0 +1,132 @@
+{
+  "work_experience": [
+    {
+      "date": "2023 – 2025",
+      "title": "Senior Engineer - Analog Mixed-Signal Design",
+      "company": "Renesas Electronics",
+      "location": "Bingen, Germany",
+      "points": [
+        "Led requirements analysis for industrial Ethernet; created product spec in Polarion; achieved CDR, SDR, LDR gates.",
+        "Designed analog transmitter on 40 nm TSMC for Ethernet PHY IP; verified chip top; simulated package and signed-off.",
+        "Ran cross-team design, layout, and verification reviews across 3 groups; passed compliance test; got first silicon success."
+      ]
+    },
+    {
+      "date": "2022 – 2023",
+      "title": "ICT3 Engineer - AMS Layout Design",
+      "company": "Apple",
+      "location": "Munich, Germany",
+      "points": [
+        "Led a team of 4 engineers to develop PMU using FinFET for Cellular RF SoC; delivered megacell ahead of schedule.",
+        "Managed third-party vendors; organized daily stand-ups, distributed tasks, accomplished goals, and provided feedback.",
+        "Introduced Innovus PnR for AMS blocks and used ParagonX to minimize parasitics; reduced critical-net RC by 20%."
+      ]
+    },
+    {
+      "date": "2018 – 2022",
+      "title": "Research Engineer - Analog Mixed-Signal Design",
+      "company": "Fraunhofer IIS",
+      "location": "Erlangen, Germany",
+      "points": [
+        "Designed a CDR circuit operating at 8 GHz using 22nm GF FDX for ASA-compliant automotive infotainment SoC.",
+        "Designed multiple ROICs on 180nm XFAB/TowerJazz for ToF imaging, smoke detection, & smart farming applications.",
+        "Mentored over 3 research assistants for master thesis; formally reviewed journal, presentation, & research papers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "date": "2025 – 2026",
+      "title": "Master of Engineering (M.Eng) in Engineering Management",
+      "company": "Cornell University",
+      "location": "Ithaca, New York",
+      "points": []
+    },
+    {
+      "date": "2015 – 2018",
+      "title": "Master of Science (M.Sc) in Nanoelectronic Systems",
+      "company": "TU Dresden",
+      "location": "Dresden, Germany",
+      "points": [
+        "<strong>GPA:</strong> 3.73/4.00"
+      ]
+    },
+    {
+      "date": "2009 – 2013",
+      "title": "Bachelor of Technology (B.Tech) in ECE",
+      "company": "West Bengal University of Technology",
+      "location": "Kolkata, India",
+      "points": [
+        "<strong>GPA:</strong> 3.76/4.00"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "EDA/IC Tools",
+      "tags": [
+        "Cadence Virtuoso",
+        "ADE Assembler/Spectre/AMS",
+        "Innovus",
+        "Quantus/QRC",
+        "Calibre (DRC/LVS/PEX)"
+      ]
+    },
+    {
+      "category": "Digital & Coding",
+      "tags": [
+        "Verilog (RTL)",
+        "MATLAB/Simulink",
+        "C",
+        "Java",
+        "Shell Scripting",
+        "Linux/Windows"
+      ]
+    },
+    {
+      "category": "Workflow",
+      "tags": [
+        "Polarion",
+        "Confluence",
+        "JIRA",
+        "Git",
+        "LaTeX"
+      ]
+    }
+  ],
+  "academic_projects": [
+    {
+      "date": "2017 – 2018",
+      "title": "M.Sc. Thesis: Fast-start-up SerDes Transmitter",
+      "company": "TU Dresden",
+      "points": [
+        "Developed a fast start-up SerDes transmitter for neuromorphic systems; verified architecture in simulation.",
+        "Extracted key metrics (power, area, wake-up time); documented results and defended thesis."
+      ]
+    },
+    {
+      "date": "2016 – 2017",
+      "title": "M.Sc. Project: Low Latency SerDes Link",
+      "company": "TU Dresden",
+      "points": [
+        "Designed 2.5 GHz SerDes link and burst-mode CDR (RTL); verified using mixed-mode (AMS) simulation.",
+        "Achieved optimum power efficiency and reduced link initialization delay."
+      ]
+    }
+  ],
+  "certifications_summary": [
+    "<strong>Phase Locked Loops</strong> - Prof. Woogeun Rhee (2024)",
+    "<strong>Practical Design of Data Converters</strong> - EPFL (2021)",
+    "<strong>Verification & Test of ICs</strong> - eecy-ic gmbH (2020)"
+  ],
+  "awards_summary": [
+    "<strong>GFF Scholarship</strong> - TU Dresden (2017)",
+    "<strong>DAAD Scholarship</strong> - TU Dresden (2016)"
+  ],
+  "languages": [
+    "English (Fluent)",
+    "German (Advanced)",
+    "Hindi (Fluent)",
+    "Bengali (Native)"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "certifications": [
+    {
+      "date": "Sep 2024",
+      "title": "Phase-Locked Loops – Practical & Advanced Design",
+      "company": "Prof. Woogeun Rhee (Hooman Reyhani)",
+      "link": "/files/Hoomanreyhani_pll_certificate_Mallik_Bitan_2024.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Mar 2021",
+      "title": "Practical Design of Data Converters",
+      "company": "MEAD Course, EPFL, Switzerland",
+      "link": "/files/Mead_Certificate_ADC_Mallik_Bitan.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Aug 2019",
+      "title": "Advanced Analog CMOS IC Design",
+      "company": "MEAD Course, EPFL, Switzerland",
+      "link": "/files/Mead_Advanced_Analog_CMOS_IC_Design_Mallik_Bitan.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "July 2020",
+      "title": "Introduction to Verification and Test of Integrated Circuits",
+      "company": "eesy-ic GmbH (Acquired by BOSCH)",
+      "link": "/files/eesy_ic_Cerificate_Verification_Test_Mallik_Bitan.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Nov 2020",
+      "title": "Project Management Basics",
+      "company": "VOSS Consulting GmbH",
+      "link": "/files/Certificate_ProjectManagement_Bitan.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Feb 2020",
+      "title": "Basis Qualification Time Management",
+      "company": "Fraunhofer IIS",
+      "link": "/files/Certificate_TimeManagement_Bitan.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Online",
+      "title": "Intro to Python for Data Science",
+      "company": "edX",
+      "link": "/files/python_datamining.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    }
+  ],
+  "scholarships": [
+    {
+      "date": "May-Sep 2016",
+      "title": "DAAD Scholarship STIBET III - Matching Funds",
+      "company": "Technische Universität Dresden (TU Dresden)",
+      "link": "/files/Scholarship_DAAD_STIBET_2016.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Feb-Jul 2017",
+      "title": "GFF Scholarship",
+      "company": "Technische Universität Dresden (TU Dresden)",
+      "link": "/files/Scholarship_GFF_TUDresden_2017.pdf",
+      "link_text": "View Certificate",
+      "icon": "fas fa-file-pdf"
+    }
+  ],
+  "projects": [
+    {
+      "date": "2017",
+      "title": "HPSN Project: Rx Back-end with Digitally Controlled Fast Restart",
+      "company": "Chair of Highly-Parallel VLSI Systems and Neuro-Microelectronics, TU Dresden",
+      "link": "/files/2017_HPSN_Project_RX_Architectur.pdf",
+      "link_text": "View Project",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Oct 2018",
+      "title": "Fast-Start SerDes Links for Neuromorphic Hardware Systems",
+      "company": "Chair of Highly-Parallel VLSI Systems and Neuro-Microelectronics, TU Dresden",
+      "link": "/files/2018_FS_SerDes_Link_ppt.pdf",
+      "link_text": "View Presentation",
+      "icon": "fas fa-file-pdf"
+    },
+    {
+      "date": "Project",
+      "title": "Project Management Stack for Students",
+      "company": "Team 9 - CTRL ALT WIN",
+      "link": "/files/Final-Tool-Project-Management-Stack-for-Students.pdf",
+      "link_text": "View Project",
+      "icon": "fas fa-file-pdf"
+    }
+  ]
+}
