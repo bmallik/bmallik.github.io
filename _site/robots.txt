@@ -1,1 +1,1 @@
-Sitemap: /aca.github.io/sitemap.xml
+Sitemap: /sitemap.xml

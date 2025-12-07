@@ -13,9 +13,9 @@ title                    : "Bitan Mallik"
 title_separator          : "-"
 name                     : &name "Bitan Mallik"
 description              : &description "Bitan Mallik - Analog Mixed-Signal Design Engineer"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://mayuri-saha18.github.io # The base hostname & protocol for your site
-baseurl                  : /aca.github.io # the subpath of your site (repository name)
-repository               : "Mayuri-Saha18/aca.github.io"
+url                      : https://bmallik.github.io # The base hostname & protocol for your site
+baseurl                  : "" # the subpath of your site (repository name)
+repository               : "bmallik/bmallik.github.io"
 
 # Banner Settings - Controls the highlight banner on the About page
 banner:
