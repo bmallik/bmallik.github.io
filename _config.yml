@@ -19,7 +19,7 @@ repository               : "bmallik/bmallik.github.io"
 
 # Banner Settings - Controls the highlight banner on the About page
 banner:
-  show_background_image : false  # Set to false to disable background image
+  show_background_image : true  # Set to false to disable background image
   background_image      : "/images/cornell-campus.jpg"  # Path to the background image
 
 # Site Author - The following control what appear as part of the author content on the side bar.

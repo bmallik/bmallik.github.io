@@ -66,7 +66,7 @@ redirect_from:
   padding: 2rem 2rem;
   margin-bottom: 2rem;
   position: relative;
-  min-height: 180px;
+  min-height: 200px;
   display: flex;
   align-items: center;
 }
