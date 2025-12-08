@@ -150,20 +150,93 @@ bmallik.github.io/
 
 ---
 
+## 🔄 Syncing with GitHub (Git Pull)
+
+Before making changes, always pull the latest updates from GitHub to avoid conflicts:
+
+### When to use `git pull`:
+- Before starting any new work
+- When collaborating with others
+- When you've made changes on GitHub directly (like editing files online)
+- To sync your local copy with the remote repository
+
+### Steps to pull latest changes:
+
+1. **Open VS Code Terminal** (`Ctrl + `` ` `` or `Cmd + `` ` `` on Mac)
+
+2. **Navigate to project directory** (if not already there):
+   ```bash
+   cd bmallik.github.io
+   ```
+
+3. **Check current status** (optional but recommended):
+   ```bash
+   git status
+   ```
+
+4. **Pull the latest changes:**
+   ```bash
+   git pull origin main
+   ```
+
+### If you have local changes and want to pull:
+
+**Option 1: Stash your changes, pull, then restore**
+```bash
+# Save your local changes temporarily
+git stash
+
+# Pull latest changes
+git pull origin main
+
+# Restore your local changes
+git stash pop
+```
+
+**Option 2: Commit your changes first, then pull**
+```bash
+# Stage all changes
+git add .
+
+# Commit your changes
+git commit -m "Your commit message"
+
+# Pull latest changes (this will merge)
+git pull origin main
+```
+
+### If you encounter merge conflicts:
+1. Open the conflicting files in VS Code
+2. Look for conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`)
+3. Resolve conflicts by choosing which changes to keep
+4. Save the files
+5. Complete the merge:
+   ```bash
+   git add .
+   git commit -m "Resolved merge conflicts"
+   ```
+
+---
+
 ## 🌐 Deploying to GitHub Pages
 
-1. Commit your changes:
+1. **Pull latest changes first:**
+   ```bash
+   git pull origin main
+   ```
+
+2. **Commit your changes:**
    ```bash
    git add .
    git commit -m "Your commit message"
    ```
 
-2. Push to GitHub:
+3. **Push to GitHub:**
    ```bash
    git push origin main
    ```
 
-3. GitHub Pages will automatically build and deploy your site to [https://bmallik.github.io](https://bmallik.github.io)
+4. GitHub Pages will automatically build and deploy your site to [https://bmallik.github.io](https://bmallik.github.io)
 
 ---
 
